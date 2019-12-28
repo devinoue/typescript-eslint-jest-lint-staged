@@ -7,7 +7,8 @@
     "build": "tsc",
     "watch": "tsc -w",
     "lint": "eslint '*/**/*.{js,ts}' --quiet --fix",
-    "test": "jest"
+    "test": "jest",
+    "start:mock": "json-server utils/mock.json"
   },
   "author": "",
   "license": "MIT",
@@ -23,6 +24,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "husky": "^3.0.9",
+    "json-server": "^0.15.1",
     "lint-staged": "^9.4.2",
     "prettier": "^1.18.2",
     "typescript": "^3.6.4"
