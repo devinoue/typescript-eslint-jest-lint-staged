@@ -1,7 +1,7 @@
 # typescript-eslint-jest-lint-staged
-My favourite template for TypeScript.
+My template for TypeScript.
 
-Installed
+# Installed
 - TypeScript
 - ESLint
 - Jest-ts
